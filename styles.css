@@ -260,7 +260,7 @@ main .btn {
 @media (min-width:990px) {
 	main {
 		height: calc(100vh - 72px);
-	}
+	}}
 .btns {
 	display: flex;
 	justify-content: center;
