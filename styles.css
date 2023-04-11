@@ -215,7 +215,7 @@ b {
 
 main {
 	color: var(--alt-clr);
-	height: 81vh;
+	height: calc(100vh - 60px);
 }
 
 main video {
@@ -257,7 +257,10 @@ main .btn {
 		margin-top: 100px;
 	}
 }
-
+@media (min-width:990px) {
+	main {
+		height: calc(100vh - 72px);
+	}
 .btns {
 	display: flex;
 	justify-content: center;
